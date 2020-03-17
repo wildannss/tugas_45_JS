@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <button onclick="Tombol()">
+        Klik HRef
+    </button>
+
+    <p id="text">
+        Ini Halaman tugas45 dengan HRef : 
+    </p>
+
+    <p id="result"></p>
+
+    <script type="text/javascript">
+        function Tombol(){
+            let a = location.href;
+            document.getElementById("result").innerHTML = a;
+        };
+    </script>
+</body>
+</html>
